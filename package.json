@@ -1,0 +1,26 @@
+{
+  "name": "instagram-reels-scraper-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "axios-cookiejar-support": "^5.0.5",
+    "axios-retry": "^4.5.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-cache": "^5.1.2",
+    "tough-cookie": "^5.1.2",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
